@@ -1,0 +1,70 @@
+/* Layout Styles {{{ */
+
+main {
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+nav {
+    height: 1em;
+    line-height: 1em;
+    margin: 20px 0;
+}
+
+header,
+nav,
+article,
+aside,
+footer {
+    border-style: dotted;
+}
+
+article {
+    float: left;
+    width: 75%;
+}
+
+aside {
+    float: right;
+    width: 20%;
+}
+
+footer {
+    clear: both;
+    width: 20%;
+}
+
+/* }}} */
+
+/* Text Styles {{{ */
+
+ul {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    background-color: blue;
+    border-right: 1px solid white;
+    color: white;
+    float; left;
+    text-decoration: none;
+    width: 6em;
+}
+
+a:hover {
+    background-color: #2288FF;
+}
+
+header h1 {
+    text-align: center;
+}
+
+/* }}} */
