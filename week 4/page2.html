@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Web Development Survey"/>
+        <meta name="keywords"    content="HTML Markup"/>
+        <meta name="author"      content="Dylan Araps"/>
+
+        <title>Web Development Survey - Page 2</title>
+
+        <style>
+            form {
+                border: 1px solid;
+            }
+
+            form div {
+                margin: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Unit Delivery Survey</h1>
+        <p>Please enter your name, gender and degree program below.</p>
+
+        <form id="survey" method="post" action="http://mercury.ict.swin.edu.au/it000000/surveytest.php">
+            <div>
+                <label>Name (Optional):</label>
+                <input type="text" id="name" name="user_name">
+            </div>
+
+            <div>
+                <label>Gender:</label>
+                <label><input type="radio" name="gender" value="male">Male</label>
+                <label><input type="radio" name="gender" value="female">Female</label>
+            </div>
+
+            <div>
+                <label>Degree of Program:</label>
+                <select name="degree">
+                    <option value="IT">IT</option>
+                    <option value="Multimedia">Multimedia</option>
+                    <option value="Design">Design</option>
+                </select>
+            </div>
+
+            <div>
+                <input type="submit">
+                <input type="reset">
+            </div>
+        </form>
+
+        <a href="./page3.html">Next Page</a>
+    </body>
+</html>
