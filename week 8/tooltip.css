@@ -1,0 +1,63 @@
+
+form {
+  width: 40em;
+}
+
+label {
+  float: left;
+  margin-right: 1em;
+  text-align: right;
+  width: 10em;
+}
+
+input {
+  width: 50%;
+}
+
+.textinput {
+  margin: 10px;
+}
+
+.radioinput fieldset {
+  border: none;
+}
+
+.radioinput legend {
+  float: left;
+  text-align: right;
+  width: 9em;
+}
+
+.radioinput input {
+  width: 2em;
+}
+
+.buttoninput {
+  text-align: right;
+}
+
+.buttoninput input {
+  width: auto;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+  background-color: yellow;
+}
+
+.tooltip {
+  background-color: blue;
+  border-radius: 5px;
+  display: none;
+  left: 1em;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+}
+.tooltip:after {
+  border-style: solid;
+  height: 0px;
+  position: absolute;
+  top: 10px;
+  width: 0px;
+}

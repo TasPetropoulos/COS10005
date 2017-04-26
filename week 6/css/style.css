@@ -1,0 +1,84 @@
+/* CSS - Dylan Araps */
+
+/* HEADER / FOOTER {{{ */
+
+header,
+footer {
+    background-color: navy;
+    color: #FFFFFF;
+}
+
+/* }}} */
+
+/* NAV {{{ */
+
+nav {
+    background: gray;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    background: blue;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 0.2em 0.6em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: brown;
+}
+
+/* }}} */
+
+/* MAIN {{{ */
+
+main {
+    background: lightgray;
+    float: left;
+    width: 65%;
+}
+
+article {
+    box-shadow: 3px 3px 3px 2px #797979;
+}
+
+article h1,
+article h2,
+article h3,
+article h4,
+article h5 {
+    text-shadow: #AAAAAA 2px 2px 2px;
+}
+
+aside {
+    background: lightgray;
+    color: green;
+    float: right;
+    font-size: 8px;
+    font-style: italic;
+    width: 30%;
+}
+
+.ad {
+    background: lightblue;
+}
+
+/* }}} */
+
+/* FOOTER {{{ */
+
+footer {
+    clear: both;
+}
+
+/* }}} */
