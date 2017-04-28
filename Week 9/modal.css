@@ -1,0 +1,44 @@
+.radioinput fieldset {
+  border: none;
+}
+
+/* Use CSS to style the link as a button */
+.button {
+  background-color: lightgrey;
+  border-radius: 6px;
+  border: 1px solid black;
+  padding: 0.25em;
+}
+
+.button:hover {
+  background-color: darkgrey;
+}
+
+/* Use CSS to style the window */
+.window {
+  background-color: lightblue;
+  border-radius: 5px;
+  display: none;
+  height: 10em;
+  left: 50%;
+  margin-left: -11em;
+  margin-top: -5em;
+  padding: 5px;
+  position: fixed;
+  top: 50%;
+  width: 22em;
+  z-index: 2;
+}
+
+/* set up a transparent pane on the screen, preventing the user from clicking on any elements at layer 0 on the screen */
+#scrnOverlay {
+  background-color: grey;
+  bottom: 0;
+  left: 0;
+  opacity: 0.5;
+  position : fixed;
+  right: 0;
+  top: 0;
+  visibility: hidden;
+  z-index: 1;
+}
